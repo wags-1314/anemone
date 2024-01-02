@@ -107,6 +107,19 @@ a {
   color: var(--linkColor);
 }
 
+.callout {
+  max-width: 90%;
+  height: auto;
+  margin: .2rem;
+  padding: .2rem;
+  border: dashed .2rem var(--metaColor)
+}
+
+.callout::before {
+  color: var(--metaColor);
+  content: '> '
+}
+
 a:focus,
 a:hover {
   background-color: var(--linkColor);
