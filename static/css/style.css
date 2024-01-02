@@ -100,6 +100,19 @@ h6::before {
   content: '# '
 }
 
+.callout {
+  max-width: 90%;
+  height: auto;
+  margin: .2rem;
+  padding: .2rem;
+  border: dashed .2rem var(--metaColor)
+}
+
+.callout::before {
+  color: var(--metaColor);
+  content: '! '
+}
+
 a {
   text-decoration: none;
   padding: 0 .2rem 0 .2rem;
