@@ -117,7 +117,7 @@ a {
 
 .callout::before {
   color: var(--metaColor);
-  content: '> '
+  content: ' ! '
 }
 
 a:focus,
