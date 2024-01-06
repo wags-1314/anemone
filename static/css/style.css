@@ -161,6 +161,7 @@ hr {
 }
 
 img:not(#bare) {
+  display: block;
   max-width: 90%;
   height: auto;
   margin: .2rem;
