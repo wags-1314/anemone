@@ -164,6 +164,8 @@ img:not(#bare) {
   display: block;
   max-width: 90%;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
   margin: .2rem;
   padding: .2rem;
   border: dashed .2rem var(--metaColor);
