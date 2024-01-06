@@ -115,11 +115,6 @@ a {
   border: dashed .2rem var(--metaColor)
 }
 
-.callout::before {
-  color: var(--metaColor);
-  content: ' ! '
-}
-
 a:focus,
 a:hover {
   background-color: var(--linkColor);
