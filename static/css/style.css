@@ -208,6 +208,7 @@ aside {
   overflow-x: auto;
   word-break: break-word;
   padding: 0 10px;
+  margin-left: 1em;
 }
 *[dir="rtl"] aside {
   float: left;
