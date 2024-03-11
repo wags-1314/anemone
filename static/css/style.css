@@ -2,6 +2,8 @@
 :root.dark {
   --bgColor: #2e3440;
   --fgColor: #d8dee9;
+  --invBgColor: #d8dee9;
+  --invFgColor: #2e3440;
   --metaColor: #bf616a;
   --headColor: #;
   --linkColor: #5E81AC;
@@ -27,6 +29,8 @@
 :root.light {
   --bgColor: #d8dee9;
   --fgColor: #2e3440;
+  --invBgColor: #2e3440;
+  --invFgColor: #d8dee9;
   --metaColor: #bf616a;
   --headColor: #;
   --linkColor: #5E81AC;
@@ -190,6 +194,35 @@ pre {
   font-style: monospace;
   white-space: pre-wrap; 
   word-break: break-word;
+}
+
+aside, details {
+  background-color: var(--invBgColor);
+  color: var(--invFgColor)
+}
+
+aside {
+  font-size: 1rem;
+  width: 35%;
+  padding: 0 10px;
+  margin-inline-start: 10px;
+  float: right;
+}
+*[dir="rtl"] aside {
+  float: left;
+}
+
+/* make aside full-width on mobile */
+@media only screen and (max-width: 720px) {
+  aside {
+    width: 100%;
+    float: none;
+    margin-inline-start: 0;
+  }
+}
+
+details {
+  padding: .5rem;
 }
 
 p code,
