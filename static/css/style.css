@@ -115,6 +115,17 @@ a {
   border: dashed .2rem var(--metaColor)
 }
 
+.statuscafe {
+    padding: .5em;
+    border: dashed .2rem var(--metaColor);
+}
+.statuscafe-username {
+    margin-bottom: .5em;
+}
+.statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+}
+
 a:focus,
 a:hover {
   background-color: var(--linkColor);
