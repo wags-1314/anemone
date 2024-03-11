@@ -202,7 +202,11 @@ aside, details {
 }
 
 aside {
+  width: 35%;  
   float: right;
+  font-style: italic;
+  overflow-x: auto;
+  word-break: break-word;
 }
 *[dir="rtl"] aside {
   float: left;
